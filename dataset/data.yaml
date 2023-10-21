@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['button', 'column', 'icon button', 'image', 'input', 'progress bar', 'row', 'spacer', 'text', 'view']
+
+roboflow:
+  workspace: jankiben-riteshbhai-y3ind
+  project: objectdetectionofmobileui
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jankiben-riteshbhai-y3ind/objectdetectionofmobileui/dataset/1
